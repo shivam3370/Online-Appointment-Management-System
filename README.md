@@ -28,7 +28,7 @@ Project Structure
 └── Database
       └── AppointmentDB.bak   → SQL Server Database Backup
 
-🗄Database Information
+Database Information
 A complete SQL Server database backup is included:
 /Database/AppointmentDB.bak
 
