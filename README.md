@@ -8,25 +8,12 @@ Book appointments
 View all appointments
 SQL Server database (AppointmentDB.bak)
 
-Features
-✔ Add new doctors
-✔ Display doctors with name, specialization, and fee
-✔ Book an appointment
-✔ Validate patient details
-✔ Show all booked appointments
-✔ Stylish UI with buttons and formatting
+Features Add new doctors , Display doctors with name, specialization, and fee , Book an appointment,Validate patient details ,Show all booked appointments, Stylish UI with buttons and formatting
 
 
 Project Structure
-/Online-Appointment
-│
-├── Default.aspx              → Doctors List + Add Doctor
-├── BookAppointment.aspx      → Appointment Booking Page
-├── Appointments.aspx         → View All Appointments
-├── Web.config
-│
-└── Database
-      └── AppointmentDB.bak   → SQL Server Database Backup
+/Online-Appointment Default.aspx/BookAppointment.aspx/Appointments.aspx Web.config
+Database/AppointmentDB.bak(SQL Server Database Backup)
 
 Database Information
 A complete SQL Server database backup is included:
