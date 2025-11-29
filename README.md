@@ -41,11 +41,7 @@ Setup & Run Instructions:
    Open the project in Visual Studio.
 
 2.Restore the SQL Database
-  1.Open SSMS
-  2.Right-click Databases → Restore Database
-  3.Choose:Source → DeviceClick->Browse ->Select AppointmentDB.bak from the /Database folder
-  4.Set database name: AppointmentDB
-  5.Click OK to restore
+  1.Open SSMS  2.Right-click Databases → Restore Database 3.Choose:Source → DeviceClick->Browse ->Select AppointmentDB.bak from the /Database folder 4.Set database name: AppointmentDB 5.Click OK to restore
 . Update Connection String (Web.config)
 
 3.Update your SQL Server name:
@@ -54,15 +50,12 @@ Setup & Run Instructions:
    connectionString="Data Source=YOUR_SERVER_NAME;Initial Catalog=AppointmentDB;Integrated Security=True"
    providerName="System.Data.SqlClient" />
    </connectionStrings>
-Replace YOUR_SERVER_NAME with your actual instance name (e.g., .\SQLEXPRESS). 
+  Replace YOUR_SERVER_NAME with your actual instance name (e.g., .\SQLEXPRESS). 
 
 4. Run the Application
    1.Open solution file in Visual Studio and run Project
    2.Application starts with Default.aspx
 
-  You can:
-  ✔ Add a new doctor
-  ✔ Select doctor → Book appointment button
-  ✔ View all appointments
+  You can: 1.Add a new doctor Select doctor    2.Book appointment 3.View all appointments
 
   Approximate Time Spent 2 Days(with 4 hours each days)
